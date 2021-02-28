@@ -1,2 +1,2 @@
 # test-ar-js
-http://ParentZap.github.io/test-ar-js
+http://ktparent-me.github.io/test-ar-js
