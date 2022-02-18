@@ -11,7 +11,9 @@
           position="0 0 0"
           scale="50 50 50"
           rotation="0 0 0"
-          gltf-model="./Assets/WaterBottle/glTF-pbrSpecularGlossiness/WaterBottle.gltf"  
+          gltf-model="./Assets/WaterBottle/glTF-pbrSpecularGlossiness/WaterBottle.gltf"
+          const light = new THREE.AmbientLight( 0x404040 ); // soft white light
+          scene.add( light );
         ></a-entity>
       </a-marker>
       <a-entity camera></a-entity>
